@@ -50,3 +50,31 @@ describe pip('Flask-SSLify') do
   it {should be_installed}
   its('version') {should eq '0.1.4'}
 end
+describe pip('pyTest') do
+  it {should be_installed}
+  its('version'){should eq '2.5.2'}
+end
+describe pip('pytest-cov') do
+  it {should be_installed}
+  its('version'){should eq '1.6'}
+end
+describe pip('betamax') do
+  it {should be_installed}
+  its('version'){should eq '0.4.0'}
+end
+describe pip('flake8') do
+  it {should be_installed}
+  its('version'){should eq '2.1.0'}
+end
+describe pip('pep8') do
+  it {should be_installed}
+  its('version'){should eq '1.5.6'}
+end
+describe pip('pyflakes') do
+  it {should be_installed}
+  its('version'){should eq '0.8.1'}
+end
+describe pip('coveralls') do
+  it {should be_installed}
+  its('version'){should eq '0.4.2'}
+end
