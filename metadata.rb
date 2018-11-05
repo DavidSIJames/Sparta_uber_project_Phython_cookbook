@@ -1,4 +1,4 @@
-name 'python_cookbok'
+name 'python_cookbook'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
@@ -11,10 +11,10 @@ chef_version '>= 13.0'
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
 #
-# issues_url 'https://github.com/<insert_org_here>/python_cookbok/issues'
+# issues_url 'https://github.com/<insert_org_here>/python_cookbook/issues'
 
 # The `source_url` points to the development repository for this cookbook.  A
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-# source_url 'https://github.com/<insert_org_here>/python_cookbok'
+# source_url 'https://github.com/<insert_org_here>/python_cookbook'
